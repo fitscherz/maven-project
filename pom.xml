@@ -20,6 +20,8 @@
 		<activemq.client.version>5.15.2</activemq.client.version>
 		<activemq.version>5.15.2</activemq.version>
 		<activemq.kahadb.version>5.15.2</activemq.kahadb.version>
+		<uid>mmeixner</uid>
+		<pwd></pwd>
 	</properties>
 
 	<build>
@@ -67,7 +69,7 @@
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
-					<username>mmeixner</username>
+					<username>${uid}</username>
 					<password>${pwd}</password>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
